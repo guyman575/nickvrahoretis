@@ -8,14 +8,6 @@ to = ['6169165724@vtext.com']#'2483184623@vtext.com', 'npv@umich.edu', 'nickvrah
 subject = ''
 body = ''
 
-email_text = """\
-From: %s
-To: %s
-Subject: %s
-
-%s
-""" % (sent_from, ", ".join(to), subject, body)
-
 def sendNickAnEmail(emailBody):
     body = emailBody
 
